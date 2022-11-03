@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Sample
+class Intterest
 {
     public static void main(String args[])
     {
@@ -10,10 +10,7 @@ class Sample
         t=sc.nextDouble();
         Double k=(1+(r/100));
         a=p*(Math.pow(k,t));
-        
         System.out.format("%.2f",a);
-        
-        
-        
+        sc.close();
     }
 }
